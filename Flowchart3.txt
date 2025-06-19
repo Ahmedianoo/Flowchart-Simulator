@@ -1,0 +1,15 @@
+6
+STRT 0 194 135
+READ   1  111  220   x
+COND 2 412 286 x LESS  0
+WRITE   3  582  413    "negative"
+WRITE   4  57  440    "0 or +ve"
+END 5 318 578
+
+6
+1 2 0
+0 1 0
+2 3 1
+2 4 2
+3 5 0
+4 5 0
